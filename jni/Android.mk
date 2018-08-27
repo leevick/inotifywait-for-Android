@@ -16,5 +16,5 @@ LOCAL_C_INCLUDES := \
 LOCAL_MODULE    := inotifywait
 LOCAL_SRC_FILES := wrap.c common.c libinotifytools/inotifytools.c libinotifytools/redblack.c
 
-include $(BUILD_EXECUTABLE)
+include $(BUILD_STATIC_LIBRARY)
 
